@@ -1,0 +1,81 @@
+body {
+}
+
+@keyframes pulse {
+    0% {
+        color: brown;
+    }
+    10%{
+        color: crimson;
+    }
+    50%{
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes stretch {
+    from {
+        width: 50%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+
+h1{
+    background-color: teal;
+    color: tomato;
+    animation: pulse 1s 5.2, stretch 2s 10;
+}
+
+p {
+    animation: pulse 2s ease-out 5
+}
+
+@keyframes expand {
+    from {
+        height: 80px;
+    }
+    to {
+        height: 150px;
+    }
+}
+
+#item-wrapper {
+    display: flex;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: thistle;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    animation: expand 2s 1s alternate infinite;
+}
+
+.item:nth-of-type(1) {
+    animation-timing-function: linear;
+}
+
+.item:nth-of-type(2) {
+    animation-timing-function: ease;
+}
+
+.item:nth-of-type(3) {
+    animation-timing-function: ease-in;
+}
+
+.item:nth-of-type(4) {
+    animation-timing-function: ease-out;
+}
+
+.item:nth-of-type(5) {
+    animation-timing-function: ease-in-out;
+}
