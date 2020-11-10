@@ -14,4 +14,4 @@ animation
 # TASK:
 ![TASK](https://github.com/bulentkyc/CSS-Custom-Animations/blob/master/processing-example.gif) 
 
-[Output:](https://github.com/bulentkyc/CSS-Custom-Animations) 
+[To see the output please click here 👋](https://github.com/bulentkyc/CSS-Custom-Animations) 
