@@ -11,6 +11,7 @@ animation
   animation-play-state
   
   
-[TASK:](https://github.com/bulentkyc/CSS-Custom-Animations/blob/master/processing-example.gif) 
+#TASK:
+![TASK](https://github.com/bulentkyc/CSS-Custom-Animations/blob/master/processing-example.gif) 
 
 [Output:](https://github.com/bulentkyc/CSS-Custom-Animations) 
